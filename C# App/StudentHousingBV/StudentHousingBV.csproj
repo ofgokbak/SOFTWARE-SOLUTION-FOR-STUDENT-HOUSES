@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1E43753B-8CDB-43B5-A5D2-039F3965FFC7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>StudentHousingBV</RootNamespace>
+    <AssemblyName>StudentHousingBV</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>C:\Users\onure\Desktop\StudentHousing BV- App\</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://ofgokbak.com/</InstallUrl>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.3.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.6.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.18\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>..\packages\SSH.NET.2016.1.0\lib\net40\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminGUI\AdminAddRule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminGUI\AdminAddRule.Designer.cs">
+      <DependentUpon>AdminAddRule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminGUI\AdminComplainsGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminGUI\AdminComplainsGUI.Designer.cs">
+      <DependentUpon>AdminComplainsGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminGUI\AdminInboxGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminGUI\AdminInboxGUI.Designer.cs">
+      <DependentUpon>AdminInboxGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminGUI\AdminMGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminGUI\AdminMGUI.Designer.cs">
+      <DependentUpon>AdminMGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminGUI\AdminRules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminGUI\AdminRules.Designer.cs">
+      <DependentUpon>AdminRules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminGUI\AdminSendMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminGUI\AdminSendMessage.Designer.cs">
+      <DependentUpon>AdminSendMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminGUI\CheckTasks%27StatusGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminGUI\CheckTasks%27StatusGUI.Designer.cs">
+      <DependentUpon>CheckTasks%27StatusGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Announcements.cs" />
+    <Compile Include="Classes\Complain.cs" />
+    <Compile Include="Classes\DataAccess.cs" />
+    <Compile Include="Classes\EnumDays.cs" />
+    <Compile Include="Classes\Messages.cs" />
+    <Compile Include="Classes\Room.cs" />
+    <Compile Include="Classes\Rules.cs" />
+    <Compile Include="Classes\Student.cs" />
+    <Compile Include="Classes\StudentHousingSystem.cs" />
+    <Compile Include="Classes\TimeTable.cs" />
+    <Compile Include="GUI\AddComplainGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AddComplainGUI.Designer.cs">
+      <DependentUpon>AddComplainGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\AnnouncementsAndRulesGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AnnouncementsAndRulesGUI.Designer.cs">
+      <DependentUpon>AnnouncementsAndRulesGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminGUI\CheckingTasksGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminGUI\CheckingTasksGUI.Designer.cs">
+      <DependentUpon>CheckingTasksGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ComplainsGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ComplainsGUI.Designer.cs">
+      <DependentUpon>ComplainsGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\EditEventsGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\EditEventsGUI.Designer.cs">
+      <DependentUpon>EditEventsGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\InBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\InBox.Designer.cs">
+      <DependentUpon>InBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\LoginGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\LoginGUI.Designer.cs">
+      <DependentUpon>LoginGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SendMessageGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\SendMessageGUI.Designer.cs">
+      <DependentUpon>SendMessageGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SettingsGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\SettingsGUI.Designer.cs">
+      <DependentUpon>SettingsGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TimeTableGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\TimeTableGUI.Designer.cs">
+      <DependentUpon>TimeTableGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AdminGUI\AdminAddRule.resx">
+      <DependentUpon>AdminAddRule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminGUI\AdminComplainsGUI.resx">
+      <DependentUpon>AdminComplainsGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminGUI\AdminInboxGUI.resx">
+      <DependentUpon>AdminInboxGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminGUI\AdminMGUI.resx">
+      <DependentUpon>AdminMGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminGUI\AdminRules.resx">
+      <DependentUpon>AdminRules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminGUI\AdminSendMessage.resx">
+      <DependentUpon>AdminSendMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminGUI\CheckTasks%27StatusGUI.resx">
+      <DependentUpon>CheckTasks%27StatusGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\AddComplainGUI.resx">
+      <DependentUpon>AddComplainGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\AnnouncementsAndRulesGUI.resx">
+      <DependentUpon>AnnouncementsAndRulesGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminGUI\CheckingTasksGUI.resx">
+      <DependentUpon>CheckingTasksGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ComplainsGUI.resx">
+      <DependentUpon>ComplainsGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\EditEventsGUI.resx">
+      <DependentUpon>EditEventsGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\InBox.resx">
+      <DependentUpon>InBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\LoginGUI.resx">
+      <DependentUpon>LoginGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SendMessageGUI.resx">
+      <DependentUpon>SendMessageGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SettingsGUI.resx">
+      <DependentUpon>SettingsGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TimeTableGUI.resx">
+      <DependentUpon>TimeTableGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bathroom" />
+    <None Include="Resources\kitchen" />
+    <None Include="Resources\kitchen1" />
+    <None Include="Resources\shopping" />
+    <None Include="Resources\toilet" />
+    <None Include="Resources\user_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8ab19a54-73dd-4755-adb6-f9bf5a4effd7_200x200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_window_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_sign_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_sign_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_sign_filled_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_80px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_sign_filled_25px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\garbage.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_25px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strike_25px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\megaphone_25px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_25px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_window_filled_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_sign_filled_25px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_80px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4a8fdea5-3301-405a-ae3e-dded9fc7f1cb_200x2001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_30px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_30px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3cf90a3-65e3-460f-8b42-4ea725575629_200x200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1364524d-8d83-4f38-86c9-ca3262f9b86e_200x200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6adfef68-1ce3-423c-843e-8a400fc3cf37_200x200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_male_circle_filled_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_25px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strike_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\megaphone_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_34px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_sign_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multiply_filled_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12f5082c-e919-4d38-8ff2-4174e6692719_200x200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50f099e6-63c6-427e-afd5-2b5d4f64ca0a_200x200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_30px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50f099e6-63c6-427e-afd5-2b5d4f64ca0a_200x2001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_35px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_35px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_math_filled_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multiply_filled_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5bd9cd33-49d3-45c5-aec6-232dbc709d4e_200x200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone_35px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floor_plan_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_35px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contact_card_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contact_card_35px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus_math_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visible_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strike_30px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rules_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asdfasdfasdfasdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkmark_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message_35px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sms_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_32px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exclamation_mark_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2020-01-08 at 16.45.11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2020-01-08 at 17.05.36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2020-01-08 at 16.45.50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2020-01-08 at 16.46.51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2020-01-08 at 16.47.50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checktrue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkFalse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\180-1806134_thumbs-up-smiley-face-emoji-happy-smiley-face.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sms_32px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_32px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\247-2475683_transparent-smile-emoji-png-you-got-it-emoji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\247-2475683_transparent-smile-emoji-png-you-got-it-emoji1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\247-2475683_transparent-smile-emoji-png-you-got-it-emoji2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-21.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkmark_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkmark_50px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key_32px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_male_circle_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

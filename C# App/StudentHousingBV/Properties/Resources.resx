@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="calendar_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12f5082c-e919-4d38-8ff2-4174e6692719_200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12f5082c-e919-4d38-8ff2-4174e6692719_200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phone_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phone_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shopping1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shopping.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minus_math_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minus_math_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2020-01-08 at 16.47.50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2020-01-08 at 16.47.50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plus_math_filled_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plus_math_filled_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_35px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_35px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images-2.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="email_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\email_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2020-01-08 at 17.05.36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2020-01-08 at 17.05.36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phone_35px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phone_35px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_80px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_80px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_sign_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_sign_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_sign_filled_25px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_sign_filled_25px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5bd9cd33-49d3-45c5-aec6-232dbc709d4e_200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5bd9cd33-49d3-45c5-aec6-232dbc709d4e_200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toilet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toilet;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2020-01-08 at 16.45.11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2020-01-08 at 16.45.11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar_25px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shopping" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shopping;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contact_card_35px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contact_card_35px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contact_card_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contact_card_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8ab19a54-73dd-4755-adb6-f9bf5a4effd7_200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8ab19a54-73dd-4755-adb6-f9bf5a4effd7_200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="megaphone_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\megaphone_25px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phone_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phone_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="password_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\password_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_sign_filled_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_sign_filled_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="50f099e6-63c6-427e-afd5-2b5d4f64ca0a_200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\50f099e6-63c6-427e-afd5-2b5d4f64ca0a_200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="password_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\password_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_80px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_80px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checkmark_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkmark_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_30px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_30px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="180-1806134_thumbs-up-smiley-face-emoji-happy-smiley-face" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\180-1806134_thumbs-up-smiley-face-emoji-happy-smiley-face.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strike_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\strike_25px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sms_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sms_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strike_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\strike_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar_25px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar_25px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asdfasdfasdfasdf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asdfasdfasdfasdf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bathroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bathroom;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close_window_filled_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_window_filled_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="247-2475683_transparent-smile-emoji-png-you-got-it-emoji2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\247-2475683_transparent-smile-emoji-png-you-got-it-emoji2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="50f099e6-63c6-427e-afd5-2b5d4f64ca0a_200x2001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\50f099e6-63c6-427e-afd5-2b5d4f64ca0a_200x2001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="message_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\message_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="garbage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\garbage.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1364524d-8d83-4f38-86c9-ca3262f9b86e_200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1364524d-8d83-4f38-86c9-ca3262f9b86e_200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sms_32px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sms_32px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2020-01-08 at 16.46.51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2020-01-08 at 16.46.51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exclamation_mark_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exclamation_mark_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_32px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh_32px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_32px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh_32px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="floor_plan_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\floor_plan_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_male_circle_filled_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_male_circle_filled_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancel_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_35px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_35px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_sign_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_sign_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="password_35px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\password_35px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_32px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_32px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="247-2475683_transparent-smile-emoji-png-you-got-it-emoji" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\247-2475683_transparent-smile-emoji-png-you-got-it-emoji.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="message_35px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\message_35px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kitchen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kitchen;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e3cf90a3-65e3-460f-8b42-4ea725575629_200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e3cf90a3-65e3-460f-8b42-4ea725575629_200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_sign_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_sign_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6adfef68-1ce3-423c-843e-8a400fc3cf37_200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6adfef68-1ce3-423c-843e-8a400fc3cf37_200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="message_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\message_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checkmark_50px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkmark_50px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kitchen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kitchen1;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar_34px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar_34px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="visible_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\visible_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checkFalse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkFalse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_sign_filled_25px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_sign_filled_25px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings_25px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rules_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rules_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="multiply_filled_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\multiply_filled_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="multiply_filled_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\multiply_filled_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2020-01-08 at 16.45.50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2020-01-08 at 16.45.50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strike_30px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\strike_30px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="megaphone_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\megaphone_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_30px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="door_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\door_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checkmark_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkmark_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="password_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\password_30px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4a8fdea5-3301-405a-ae3e-dded9fc7f1cb_200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4a8fdea5-3301-405a-ae3e-dded9fc7f1cb_200x2001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="247-2475683_transparent-smile-emoji-png-you-got-it-emoji1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\247-2475683_transparent-smile-emoji-png-you-got-it-emoji1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close_window_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_window_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images-21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images-21.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checktrue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checktrue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_male_circle_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_male_circle_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

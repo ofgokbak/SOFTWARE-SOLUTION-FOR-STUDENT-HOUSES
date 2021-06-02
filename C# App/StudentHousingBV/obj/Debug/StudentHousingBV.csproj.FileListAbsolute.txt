@@ -1,0 +1,135 @@
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\StudentHousingBV.exe.config
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\StudentHousingBV.exe
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\StudentHousingBV.pdb
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\Google.Protobuf.dll
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\MySql.Data.dll
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\Renci.SshNet.dll
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\Google.Protobuf.xml
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\MySql.Data.xml
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\Renci.SshNet.xml
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.csprojAssemblyReference.cache
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.Properties.Resources.resources
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.csproj.GenerateResource.cache
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.csproj.CopyComplete
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.exe
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.pdb
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.LoginGUI.resources
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.TimeTableGUI.resources
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\StudentHousingBV.exe.config
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\StudentHousingBV.exe
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\StudentHousingBV.pdb
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\BouncyCastle.Crypto.dll
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\Google.Protobuf.dll
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\MySql.Data.dll
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\Renci.SshNet.dll
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\Google.Protobuf.xml
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\MySql.Data.xml
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\Renci.SshNet.xml
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.csprojAssemblyReference.cache
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.AnnouncementsAndRulesGUI.resources
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.ComplainsGUI.resources
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.LoginGUI.resources
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.SettingsGUI.resources
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.TimeTableGUI.resources
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.Properties.Resources.resources
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.csproj.GenerateResource.cache
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.csproj.CopyComplete
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.exe
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.pdb
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\StudentHousingBV.exe.config
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\StudentHousingBV.exe
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\StudentHousingBV.pdb
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\Google.Protobuf.dll
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\MySql.Data.dll
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\Renci.SshNet.dll
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\Google.Protobuf.xml
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\MySql.Data.xml
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\Renci.SshNet.xml
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.csprojAssemblyReference.cache
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.AnnouncementsAndRulesGUI.resources
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.ComplainsGUI.resources
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.LoginGUI.resources
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.SettingsGUI.resources
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.TimeTableGUI.resources
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.Properties.Resources.resources
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.csproj.GenerateResource.cache
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.csproj.CoreCompileInputs.cache
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.csproj.CopyComplete
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.exe
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.pdb
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.AnnouncementsAndRulesGUI.resources
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.ComplainsGUI.resources
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.SettingsGUI.resources
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\StudentHousingBV.exe.config
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\StudentHousingBV.exe
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\StudentHousingBV.pdb
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\BouncyCastle.Crypto.dll
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\Google.Protobuf.dll
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\MySql.Data.dll
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\Renci.SshNet.dll
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\Google.Protobuf.xml
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\MySql.Data.xml
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\bin\Debug\Renci.SshNet.xml
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.csprojAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.AnnouncementsAndRulesGUI.resources
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.ComplainsGUI.resources
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.LoginGUI.resources
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.SettingsGUI.resources
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.TimeTableGUI.resources
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.Properties.Resources.resources
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.csproj.GenerateResource.cache
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.csproj.CoreCompileInputs.cache
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.csproj.CopyComplete
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.exe
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.pdb
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.EditEventsGUI.resources
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.EditEventsGUI.resources
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.EditEventsGUI.resources
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.CheckingTasksGUI.resources
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.CheckingTasksGUI.resources
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.AddComplainGUI.resources
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.AddComplainGUI.resources
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminComplainsGUI.resources
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminRules.resources
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminAddRule.resources
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.InBox.resources
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.SendMessageGUI.resources
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminAddRule.resources
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminComplainsGUI.resources
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminRules.resources
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.InBox.resources
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.SendMessageGUI.resources
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminInboxGUI.resources
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminMGUI.resources
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminSendMessage.resources
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminAddRule.resources
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminComplainsGUI.resources
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminInboxGUI.resources
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminMGUI.resources
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminRules.resources
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminSendMessage.resources
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.AddComplainGUI.resources
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.CheckingTasksGUI.resources
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.InBox.resources
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.SendMessageGUI.resources
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminInboxGUI.resources
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminMGUI.resources
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminSendMessage.resources
+\\vmware-host\Shared Folders\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.CheckTasks_StatusGUI.resources
+D:\1. Programming\0. GitHub\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.CheckTasks_StatusGUI.resources
+C:\Users\onure\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.CheckTasks_StatusGUI.resources
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminAddRule.resources
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminComplainsGUI.resources
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminInboxGUI.resources
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminMGUI.resources
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminRules.resources
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminSendMessage.resources
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.AdminSettingsGUI.resources
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.AdminGUI.CheckTasks_StatusGUI.resources
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.AddComplainGUI.resources
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.CheckingTasksGUI.resources
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.EditEventsGUI.resources
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.InBox.resources
+C:\Users\Onur\Desktop\s05-group1-advanced_project\StudentHousingBV\StudentHousingBV\obj\Debug\StudentHousingBV.GUI.SendMessageGUI.resources
